@@ -1,0 +1,14 @@
+- abstract: Test
+  attributes:
+    paper_type: short
+    presentation_type: poster
+    submitted_area: Area 2
+  authors:
+  - email: Test
+    first_name: Test
+    instituion: Test
+    last_name: Test
+    openreview: ~Test
+  file: 2.pdf
+  id: 2
+  title: Test
