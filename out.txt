@@ -1,0 +1,62 @@
+
+ERROR: or_id not found daniel.sonntag@dfki.de
+A survey on improving NLP models with human explanations
+Mareike Hartmann, daniel.sonntag@dfki.de
+
+Unsupervised Cross-Task Generalization via Retrieval Augmentation
+Bill Yuchen Lin, Kangmin Tan, Chris Scott Miller, Beiwen Tian, Xiang Ren
+
+Finding Sub-task Structure with Natural Language Instruction
+Ryokan Ri, Yufang Hou, Radu Marinescu, Akihiro Kishimoto
+
+Single-Turn Debate Does Not Help Humans Answer Hard Reading-Comprehension Questions
+Alicia Parrish, Harsh Trivedi, Ethan Perez, Angelica Chen, Nikita Nangia, Jason Phang, Samuel R. Bowman
+
+Few-shot image classification by generating natural language rules
+Wai Keen Vong, Brenden Lake
+
+Shared Autonomy for Robotic Manipulation with Language Corrections
+Siddharth Karamcheti, Raj Palleti, Yuchen Cui, Percy Liang, Dorsa Sadigh
+
+When Can Models Learn From Explanations? A Formal Framework for Understanding the Roles of Explanation Data
+Peter Hase, Mohit Bansal
+
+Using Natural Language to Guide Meta-Learning Agents towards Human-like Inductive Biases
+Sreejan Kumar, Ishita Dasgupta, Michael Hu, Raja Marjieh, Robert D. Hawkins, Nathaniel Daw, Jonathan Cohen, Karthik R Narasimhan, Thomas L. Griffiths
+
+Conversational Grounding as Natural Language Supervision -- the need for divergent agent data
+Oliver Lemon
+
+CLUES: A Benchmark for Learning Classifiers using Natural Language Explanations
+Rakesh R Menon, Sayan Ghosh, Shashank Srivastava
+
+Linguistic communication as (inverse) reward design
+Theodore Sumers, Robert D. Hawkins, Mark K Ho, Thomas L. Griffiths, Dylan Hadfield-Menell
+
+Learning from Natural Language Feedback
+Jérémy Scheurer, Jon Ander Campos, Jun Shern Chan, Angelica Chen, Kyunghyun Cho, Ethan Perez
+
+QuExEnt: Improved Zero-Shot Classification from Explanations Through Quantifier Modeling and Curriculum Learning
+Sayan Ghosh, Rakesh R Menon, Shashank Srivastava
+
+Predicting Human Similarity Judgments Using Large Language Models
+Raja Marjieh, Ilia Sucholutsky, Theodore Sumers, Nori Jacoby, Thomas L. Griffiths
+
+GrammarSHAP: An Efficient Model-Agnostic and Structure-Aware NLP Explainer
+Edoardo Mosca, Defne Demirtürk, Luca Mülln, Fabio Raffagnato, Georg Groh
+
+Distilling Hypernymy Relations from Language Models: On the Effectiveness of Zero-Shot Taxonomy Induction
+Devansh Jain, Luis Espinosa-Anke
+
+Revisiting the Roles of “Text” in Text Games
+Yi Gu, Shunyu Yao, Chuang Gan, Joshua B. Tenenbaum, Mo Yu
+
+Semantic Supervision: Enabling Generalization over Output Spaces
+Ameet Deshpande, Austin W. Hanjie, Karthik R Narasimhan
+
+Prompts and Pre-Trained Language Models for Offline Reinforcement Learning
+Denis Tarasov, Vladislav Kurenkov, Sergey Kolesnikov
+
+Fixing Model Bugs with Natural Language Patches
+Shikhar Murty, Christopher D Manning, Scott M Lundberg, Marco Tulio Ribeiro
+

@@ -1,47 +1,168 @@
 - entries:
-  - first_name: Abhishek
-    institution: Berkeley / MIT
-    last_name: Gupta
-  - first_name: Greg
-    institution: UT Austin
-    last_name: Durrett
-  - first_name: Cathy
-    institution: MIT
-    last_name: Wong
-  - first_name: Olivia
-    institution: Berkeley
-    last_name: Watkins
-  - first_name: Afra
-    institution: BU
-    last_name: Feyza Akyurek
-  - first_name: Derry 
-    institution: BU
-    last_name: Wijaya
-  - first_name: Evan
-    institution: MIT
-    last_name: Hernandez
-  - first_name: Igor
-    institution: LAER AI
-    last_name: Labutov
-  - first_name: Bishan
-    institution: LAER AI
+  - dblp_id: https://dblp.org/pid/97/8154
+    emails: jda@mit.edu
+    first_name: Jacob
+    google_scholar_id: https://scholar.google.com/citations?user=dnZ8udEAAAAJ
+    homepage: http://web.mit.edu/jda/www
+    institution: Massachusetts Institute of Technology and Microsoft
+    last_name: Andreas
+    name: Jacob Andreas
+    username: ~Jacob_Andreas1
+  - dblp_id: https://dblp.org/pid/147/0322
+    emails: karthikn@cs.princeton.edu
+    first_name: Karthik
+    google_scholar_id: https://scholar.google.com/citations?user=euc0GX4AAAAJ&hl=en
+    homepage: http://www.karthiknarasimhan.com
+    institution: Princeton University
+    last_name: Narasimhan
+    middle_name: R
+    name: Karthik R Narasimhan
+    semantic_scholar_id: https://www.semanticscholar.org/author/Karthik-Narasimhan/144958935
+    username: ~Karthik_R_Narasimhan1
+  - dblp_id: https://dblp.org/pid/153/9556
+    emails: nematzadeh@google.com
+    first_name: Aida
+    google_scholar_id: https://scholar.google.com/citations?user=FWJZYMYAAAAJ&hl=en&oi=ao
+    homepage: http://www.aidanematzadeh.me/
+    last_name: Nematzadeh
+    name: Aida Nematzadeh
+    username: ~Aida_Nematzadeh1
+  role: Program Chairs
+- entries:
+  - dblp_id: https://dblp.org/pid/199/1922
+    emails: skaramcheti@cs.stanford.edu
+    first_name: Siddharth
+    google_scholar_id: https://scholar.google.com/citations?user=L5v2PHAAAAAJ
+    homepage: http://siddkaramcheti.com/
+    institution: Stanford University
+    last_name: Karamcheti
+    name: Siddharth Karamcheti
+    semantic_scholar_id: https://www.semanticscholar.org/author/Siddharth-Karamcheti/10737060
+    username: ~Siddharth_Karamcheti1
+  - emails: ted.sumers@gmail.com
+    first_name: Theodore
+    google_scholar_id: https://scholar.google.com/citations?user=xZal_nUAAAAJ&hl=en
+    homepage: https://www.tedsumers.info/
+    institution: Princeton University
+    last_name: Sumers
+    name: Theodore Sumers
+    username: ~Theodore_Sumers1
+  - dblp_id: https://dblp.org/pid/268/0913.html
+    emails: akyurek@bu.edu
+    first_name: Afra Feyza
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=RXsYj9IAAAAJ
+    homepage: https://feyzaakyurek.github.io
+    institution: Boston University
+    last_name: "Aky\xFCrek"
+    name: "Afra Feyza Aky\xFCrek"
+    username: "~Afra_Feyza_Aky\xFCrek1"
+  - emails: bishan.yang@laer.ai
+    first_name: Bishan
+    homepage: http://www.cs.cmu.edu/~bishan/
+    institution: Carnegie Melon University
     last_name: Yang
-  - first_name: Jesse 
-    institution: Stanford
+    name: Bishan Yang
+    username: ~Bishan_Yang1
+  - dblp_id: https://dblp.org/pid/205/9022
+    emails: muj@stanford.edu
+    first_name: Jesse
+    google_scholar_id: https://scholar.google.com/citations?user=djLcGEQAAAAJ&hl=en
+    homepage: https://www.jesse.mu/
+    institution: Stanford University
     last_name: Mu
-  - first_name: Ekin
-    institution: MIT 
-    last_name: Akyurek
-  - first_name: Adhi 
-    institution: DeepMind 
-    last_name: Kuncoro
-  - first_name: Jean-Baptiste 
-    institution: DeepMind
-    last_name: Alayrac
-  - first_name: Lisa Anne 
-    institution: DeepMind
-    last_name: Hendricks
-  - first_name: 
-    institution: 
-    last_name: 
-  role: Program Committee
+    name: Jesse Mu
+    orcid: https://orcid.org/0000-0002-0812-2710
+    username: ~Jesse_Mu1
+  - dblp_id: https://dblp.org/pid/94/6764
+    emails: zyzzyva@mit.edu
+    first_name: Catherine
+    google_scholar_id: https://scholar.google.com/citations?user=KssJcIAAAAAJ&hl=en
+    homepage: https://web.mit.edu/zyzzyva/www/academic.html
+    institution: Massachusetts Institute of Technology
+    last_name: Wong
+    name: Catherine Wong
+    username: ~Catherine_Wong3
+  - dblp_id: https://dblp.org/pid/169/3175
+    emails: eringrant@berkeley.edu
+    first_name: Erin
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=OSg3D9MAAAAJ
+    homepage: https://people.eecs.berkeley.edu/~eringrant/
+    institution: University of California Berkeley
+    last_name: Grant
+    name: Erin Grant
+    username: ~Erin_Grant1
+  - dblp_id: https://dblp.org/pid/216/3446.html
+    emails: akyurek@mit.edu
+    first_name: Ekin
+    institution: Massachusetts Institute of Technology
+    google_scholar_id: https://scholar.google.com/citations?user=FQHeASwAAAAJ&hl=tr
+    homepage: https://www.ekinakyurek.me/
+    last_name: "Aky\xFCrek"
+    name: "Ekin Aky\xFCrek"
+    orcid: https://orcid.org/0000-0002-5166-4689
+    semantic_scholar_id: "https://www.semanticscholar.org/author/Ekin-Aky%C3%BCrek/1992708068\xE5"
+    username: "~Ekin_Aky\xFCrek1"
+  - emails: pratyuss@mit.edu
+    first_name: Pratyusha
+    homepage: https://pratyushasharma.github.io/
+    institution: Massachusetts Institute of Technology
+    last_name: Sharma
+    name: Pratyusha Sharma
+    username: ~Pratyusha_Sharma1
+  - dblp_id: https://dblp.org/pid/220/4337
+    emails: asd@princeton.edu
+    first_name: Ameet
+    google_scholar_id: https://scholar.google.com/citations?user=332L1coAAAAJ&hl=en
+    homepage: https://ameet-1997.github.io
+    last_name: Deshpande
+    name: Ameet Deshpande
+    institution: Princeton University
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ameet-Deshpande/33341943
+    username: ~Ameet_Deshpande1
+  - emails: evanfredhernandez@gmail.com
+    first_name: Evan
+    homepage: https://evandez.com
+    institution: Massachusetts Institute of Technology
+    last_name: Hernandez
+    name: Evan Hernandez
+    orcid: https://orcid.org/0000-0002-8876-1781
+    username: ~Evan_Hernandez1
+  - emails: oliviawatkins@berkeley.edu
+    first_name: Olivia
+    homepage: https://people.eecs.berkeley.edu/~oliviawatkins/
+    last_name: Watkins
+    name: Olivia Watkins
+    institution: University of California, Berkeley
+    username: ~Olivia_Watkins1
+  - dblp_id: https://dblp.org/pid/168/8718.html
+    emails: rdhawkins@princeton.edu
+    first_name: Robert
+    google_scholar_id: https://scholar.google.com/citations?user=7EPsnxEAAAAJ&hl=en
+    homepage: https://www.rxdhawkins.com
+    institution: Princeton University
+    last_name: Hawkins
+    middle_name: D.
+    name: Robert D. Hawkins
+    semantic_scholar_id: https://www.semanticscholar.org/author/Robert-D.-Hawkins/8932668
+    username: ~Robert_D._Hawkins1
+  - dblp_id: https://dblp.org/pid/156/1038
+    emails: shunyuyao.cs@gmail.com
+    first_name: Shunyu
+    google_scholar_id: https://scholar.google.com/citations?user=qJBXk9cAAAAJ&hl=en
+    homepage: https://ysymyth.github.io
+    institution: Princeton University
+    last_name: Yao
+    name: Shunyu Yao
+    username: ~Shunyu_Yao1
+  - dblp_id: https://dblp.org/pid/206/6504.html
+    emails: rrmenon@cs.unc.edu
+    first_name: Rakesh
+    google_scholar_id: https://scholar.google.com/citations?user=GyFb98kAAAAJ&hl=en
+    homepage: https://cs.unc.edu/~rrmenon
+    institution: Department of Computer Science, University of North Carolina, Chapel
+      Hill
+    last_name: Menon
+    middle_name: R
+    name: Rakesh R Menon
+    username: ~Rakesh_R_Menon1
+  role: Reviewers

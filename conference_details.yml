@@ -1,6 +1,16 @@
-name: The First Workshop on Learning with Natural Language Supervision 
-volume: Proceedings of the The First Workshop on Learning with Natural Language Supervision, Vol. 1
-abbreviation: LNLS
+book_title: Proceedings of the First Workshop on Learning with Natural Language Supervision 
+event_name: The First Workshop on Learning with Natural Language Supervision 
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: LNLS
 start_date: 2022-05-26
 end_date: 2022-05-26
-isbn: 978-1-952148-02-6
+isbn: 978-1-955917-45-2
+location: Dublin, Ireland
+editors:
+  - first_name: Jacob
+    last_name: Andreas
+  - first_name: Karthik
+    last_name: Narasimhan
+  - first_name: Aida
+    last_name: Nematzadeh
+publisher: Association for Computational Linguistics

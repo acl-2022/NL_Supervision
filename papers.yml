@@ -1,14 +1,277 @@
-- abstract: Test
+- abstract: "When mapping a natural language instruction to a sequence of actions,\
+    \ it is often useful to\nidentify sub-tasks in the instruction. \nSuch sub-task\
+    \ segmentation, however, is not necessarily provided in the training data. \n\
+    We present the A2LCTC (Action-to-Language Connectionist Temporal Classification)\
+    \ algorithm to automatically discover a sub-task segmentation of an action sequence.\n\
+    A2LCTC does not require annotations of correct sub-task segments and learns to\
+    \ find them from pairs of instruction and action sequence in a weakly-supervised\
+    \ manner.\nWe experiment with the ALFRED dataset and show that A2LCTC accurately\
+    \ finds the sub-task structures.\nWith the discovered sub-tasks segments, we also\
+    \ train agents that work on the downstream task and empirically show that our\
+    \ algorithm improves the performance. "
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: Archival (will appear in ACL workshop proceedings)
   authors:
-  - email: Test
-    first_name: Test
-    instituion: Test
-    last_name: Test
-    openreview: ~Test
+  - emails: li0123@logos.t.u-tokyo.ac.jp
+    first_name: Ryokan
+    google_scholar_id: https://scholar.google.co.jp/citations?user=z9is5FAAAAAJ&hl=ja&oi=sra
+    homepage: https://ryou0634.github.io/
+    last_name: Ri
+    name: Ryokan Ri
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ryokan-Ri/1466451143
+    username: ~Ryokan_Ri1
+  - emails: bnuxiaofang@gmail.com
+    first_name: Yufang
+    google_scholar_id: https://scholar.google.com/citations?user=-fBym-EAAAAJ&hl=en
+    homepage: https://yufanghou.github.io/
+    last_name: Hou
+    name: Yufang Hou
+    username: ~Yufang_Hou2
+  - dblp_id: https://dblp.org/pid/m/RaduMarinescu2
+    emails: radu.marinescu@ie.ibm.com
+    first_name: Radu
+    last_name: Marinescu
+    name: Radu Marinescu
+    username: ~Radu_Marinescu2
+  - dblp_id: https://dblp.org/pid/47/3148
+    emails: a.kishimoto@gmail.com
+    first_name: Akihiro
+    institution: International Business Machines
+    last_name: Kishimoto
+    name: Akihiro Kishimoto
+    username: ~Akihiro_Kishimoto1
+  decision: Accept
   file: 2.pdf
   id: 2
-  title: Test
+  openreview_id: HpPejZv2oZ5
+  pdf_file: 7629e3097367dafe31ce4d5682244067256b9892.pdf
+  title: Finding Sub-task Structure with Natural Language Instruction
+- abstract: 'Interpreting NLP models is fundamental for their development as it can
+    shed light on hidden properties and unexpected behaviors. However, while transformer
+    architectures exploit contextual information to enhance their predictive capabilities,
+    most of the available methods to explain such predictions only provide importance
+    scores at the word level. This work addresses the lack of feature attribution
+    approaches that also take into account the sentence structure. We extend the SHAP
+    framework by proposing GrammarSHAP---a model-agnostic explainer leveraging the
+    sentence''s constituency parsing to generate hierarchical importance scores. '
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: Archival (will appear in ACL workshop proceedings)
+  authors:
+  - emails: edoardo.mosca@tum.de
+    first_name: Edoardo
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=97skKWMAAAAJ
+    homepage: https://www.in.tum.de/social/team/edoardo-mosca/
+    last_name: Mosca
+    name: Edoardo Mosca
+    username: ~Edoardo_Mosca1
+  - emails: defne.demirturk@gmail.com
+    first_name: Defne
+    institution: "Technische Universit\xE4t M\xFCnchen"
+    last_name: "Demirt\xFCrk"
+    name: "Defne Demirt\xFCrk"
+    username: "~Defne_Demirt\xFCrk1"
+  - emails: luca.muelln@hotmail.de
+    first_name: Luca
+    last_name: "M\xFClln"
+    name: "Luca M\xFClln"
+    username: "~Luca_M\xFClln1"
+  - emails: fabio.raffagnato@tum.de
+    first_name: Fabio
+    institution: "Technische Universit\xE4t M\xFCnchen"
+    last_name: Raffagnato
+    name: Fabio Raffagnato
+    username: ~Fabio_Raffagnato1
+  - dblp_id: https://dblp.org/pid/09/5335.html
+    emails: grohg@in.tum.de
+    first_name: Georg
+    google_scholar_id: https://scholar.google.com/citations?user=aTPKRO0AAAAJ&hl=en&oi=ao
+    homepage: https://www.in.tum.de/social/team/georggroh/
+    institution: Technical University Munich
+    last_name: Groh
+    name: Georg Groh
+    orcid: https://orcid.org/0000-0002-5942-2297
+    username: ~Georg_Groh2
+  decision: Accept
+  file: 8.pdf
+  id: 8
+  openreview_id: Hn4GhbvniW5
+  pdf_file: 253a51362aefc4ce314501ccd1d47e4687ed80bd.pdf
+  title: 'GrammarSHAP: An Efficient Model-Agnostic and Structure-Aware NLP Explainer'
+- abstract: Current QA systems can generate reasonable-sounding yet false answers
+    without explanation or evidence for the generated answer, which is especially
+    problematic when humans cannot readily check the model's answers. This presents
+    a challenge for building trust in machine learning systems. We take inspiration
+    from real-world situations where difficult questions are answered by considering
+    opposing sides (see Irving et al., 2018). For multiple-choice QA examples, we
+    build a dataset of single arguments for both a correct and incorrect answer option
+    in a debate-style set-up as an initial step in training models to produce explanations
+    for two candidate answers. We use long contexts---humans familiar with the context
+    write convincing explanations for pre-selected correct and incorrect answers,
+    and we test if those explanations allow humans who have not read the full context
+    to more accurately determine the correct answer. We do not find that explanations
+    in our set-up improve human accuracy, but a baseline condition shows that providing
+    human-selected text snippets does improve accuracy. We use these findings to suggest
+    ways of improving the debate set up for future data collection efforts.
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: Archival (will appear in ACL workshop proceedings)
+  authors:
+  - dblp_id: https://dblp.org/pid/248/7544
+    emails: alicia.v.parrish@nyu.edu
+    first_name: Alicia
+    google_scholar_id: https://scholar.google.com/citations?user=Kze5eGkAAAAJ&hl=en
+    homepage: https://aliciaparrish.com/
+    last_name: Parrish
+    name: Alicia Parrish
+    orcid: https://orcid.org/0000-0002-1054-0516
+    semantic_scholar_id: https://www.semanticscholar.org/author/Alicia-Parrish/119389860
+    username: ~Alicia_Parrish1
+  - dblp_id: https://dblp.org/pid/95/9586
+    emails: hjtrivedi@cs.stonybrook.edu
+    first_name: Harsh
+    google_scholar_id: https://scholar.google.com/citations?user=2hF4FJEAAAAJ
+    homepage: http://harshtrivedi.me/
+    institution: State University of New York, Stony Brook
+    last_name: Trivedi
+    name: Harsh Trivedi
+    username: ~Harsh_Trivedi1
+  - dblp_id: https://dblp.org/pid/192/1812
+    emails: perez@nyu.edu
+    first_name: Ethan
+    google_scholar_id: https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en
+    homepage: http://ethanperez.net
+    institution: New York University
+    last_name: Perez
+    name: Ethan Perez
+    username: ~Ethan_Perez1
+  - dblp_id: https://dblp.org/pid/241/5892
+    emails: ac5968@nyu.edu
+    first_name: Angelica
+    google_scholar_id: https://scholar.google.com/citations?user=QbW4GSwAAAAJ&hl=en
+    institution: New York University
+    last_name: Chen
+    name: Angelica Chen
+    semantic_scholar_id: https://www.semanticscholar.org/author/Angelica-Chen/13336152
+    username: ~Angelica_Chen1
+  - dblp_id: https://dblp.org/pid/199/2397
+    emails: nikitanangia@nyu.edu
+    first_name: Nikita
+    google_scholar_id: https://scholar.google.com/citations?user=jIiG_OAAAAAJ&hl=en&oi=ao
+    homepage: https://woollysocks.github.io/
+    institution: New York University
+    last_name: Nangia
+    name: Nikita Nangia
+    username: ~Nikita_Nangia1
+  - emails: jasonphang@nyu.edu
+    first_name: Jason
+    google_scholar_id: https://scholar.google.com/citations?user=hxbdOuoAAAAJ&hl=en
+    homepage: https://jasonphang.com/
+    institution: New York University
+    last_name: Phang
+    name: Jason Phang
+    username: ~Jason_Phang1
+  - dblp_id: https://dblp.org/pid/116/0502
+    emails: bowman@nyu.edu
+    first_name: Samuel
+    google_scholar_id: https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en
+    homepage: https://cims.nyu.edu/~sbowman/
+    institution: New York University
+    last_name: Bowman
+    middle_name: R.
+    name: Samuel R. Bowman
+    semantic_scholar_id: https://www.semanticscholar.org/author/Samuel-R.-Bowman/3644767
+    username: ~Samuel_R._Bowman1
+  decision: Accept
+  file: 9.pdf
+  id: 9
+  openreview_id: H6P42bDho-9
+  pdf_file: 98c5fc5cef4b08879bc157ae3e49ffeb34b138d2.pdf
+  title: Single-Turn Debate Does Not Help Humans Answer Hard Reading-Comprehension
+    Questions
+- abstract: 'Many methods now exist for conditioning models on task instructions and
+    user-provided explanations for individual data points. These methods show great
+    promise for improving task performance of language models beyond what can be achieved
+    by learning from individual (x,y) pairs. In this paper, we (1) provide a formal
+    framework for characterizing approaches to learning from explanation data, and
+    (2) we propose a synthetic task for studying how models learn from explanation
+    data. In the first direction, we give graphical models for the available modeling
+    approaches, in which explanation data can be used as model inputs, as targets,
+    or as a prior. In the second direction, we introduce a carefully designed synthetic
+    task with several properties making it useful for studying a model''s ability
+    to learn from explanation data. Each data point in this binary classification
+    task is accompanied by a string that is essentially an answer to the \emph{why}
+    question:  ``why does data point x have label y?" We aim to encourage research
+    into this area by identifying key considerations for the modeling problem and
+    providing an empirical testbed for theories of how models can best learn from
+    explanation data.'
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: Archival (will appear in ACL workshop proceedings)
+  authors:
+  - dblp_id: https://dblp.org/pid/51/5153.html
+    emails: peter@cs.unc.edu
+    first_name: Peter
+    google_scholar_id: https://scholar.google.com/citations?user=FO90FgMAAAAJ&hl=en&authuser=1
+    homepage: https://peterbhase.github.io/
+    institution: University of North Carolina, Chapel Hill
+    last_name: Hase
+    name: Peter Hase
+    semantic_scholar_id: https://www.semanticscholar.org/author/Peter-Hase/144625004
+    username: ~Peter_Hase1
+  - dblp_id: https://dblp.org/pid/32/5243.html
+    emails: mbansal@cs.unc.edu
+    first_name: Mohit
+    google_scholar_id: https://scholar.google.com/citations?user=DN8QtscAAAAJ&hl=en
+    homepage: https://www.cs.unc.edu/~mbansal/
+    institution: University of North Carolina at Chapel Hill
+    last_name: Bansal
+    name: Mohit Bansal
+    username: ~Mohit_Bansal2
+  decision: Accept
+  file: 16.pdf
+  id: 16
+  openreview_id: BxUhbwhiWq
+  pdf_file: 4223d7f9aa60709a953937876c752947da9d7b4a.pdf
+  title: When Can Models Learn From Explanations? A Formal Framework for Understanding
+    the Roles of Explanation Data
+- abstract: "Training a model with access to human explanations can improve data efficiency\
+    \ and model performance on in- and out-of-domain data. Adding to these empirical\
+    \ findings, similarity with the process of human learning makes learning from\
+    \ explanations a promising way to establish a fruitful human-machine interaction.\
+    \ Several methods have been proposed for improving natural language processing\
+    \ (NLP) models with human explanations, that rely on different explanation types\
+    \ and mechanism for integrating these explanations into the learning process.\
+    \ These methods are rarely compared with each other, making it hard for practitioners\
+    \ to choose the best combination of explanation type and integration mechanism\
+    \ for a specific use-case. \nIn this paper, we give an overview of different methods\
+    \ for learning from human explanations, and discuss different factors that can\
+    \ inform the decision of which method to choose for a specific use-case."
+  attributes:
+    paper_type: N/A
+    presentation_type: N/A
+    submitted_area: Archival (will appear in ACL workshop proceedings)
+  authors:
+  - dblp_id: https://dblp.org/pid/206/6859
+    emails: mrkhartmann4@gmail.com
+    first_name: Mareike
+    last_name: Hartmann
+    name: Mareike Hartmann
+    username: ~Mareike_Hartmann1
+  - emails: daniel.sonntag@dfki.de
+    first_name: Daniel
+    institution: German Research Center for Artificial Intelligence (DFKI)
+    last_name: Sonntag
+    name: Daniel Sonntag
+    username: daniel.sonntag@dfki.de
+  decision: Accept
+  file: 21.pdf
+  id: 21
+  openreview_id: HnNxTbvhjbc
+  pdf_file: 3291095b665963807c4912c79469a6dda714047d.pdf
+  title: A survey on improving NLP models with human explanations
